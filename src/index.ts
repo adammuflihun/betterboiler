@@ -6,21 +6,8 @@ window.Webflow.push(() => {
   greetUser(name);
 });
 
-
-
-
 // loop an element
 const elements = document.querySelectorAll('.my-element');
 elements.forEach((element) => {
   // do something with elementll
-
-  
-};
-  
-  
-  
-  
-  
-  
-
-
+});
