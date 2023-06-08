@@ -39,7 +39,7 @@ export const airtable = () => {
         const address = record.fields.Address;
         $('[profile="name"]').text(fieldName);
         $('[profile="address"]').text(address);
-        console.log(record.fields.postalcode);
+        // console.log(record.fields.postalcode);
       });
     })
     .catch((error) => {
