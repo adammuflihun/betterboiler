@@ -1,4 +1,6 @@
 export const postcodecookie = () => {
+  //   console.log('cookie');
+
   $(document).ready(function () {
     // Function to save value in cookie consent
     function saveToCookieConsent() {
@@ -6,7 +8,7 @@ export const postcodecookie = () => {
       // Save the value in a cookie
       // Replace 'cookieName' with the desired name for your cookie
       Cookies.set('cookieName', inputValue, { expires: 365, path: '/' });
-      console.log(Cookies.get('cookieName')); // Log the cookie value to the console
+      //   console.log(Cookies.get('cookieName')); // Log the cookie value to the console
     }
 
     // Bind click event to the submit button

@@ -5,4 +5,4 @@ window.Webflow ||= [];
 window.Webflow.push(async () => {});
 
 postcodecookie();
-// airtable();
+airtable();
