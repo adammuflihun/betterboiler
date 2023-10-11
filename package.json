@@ -54,6 +54,6 @@
   "dependencies": {
     "@finsweet/ts-utils": "^0.39.1",
     "airtable": "^0.12.1",
-    "pnpm": "^8.4.0"
+    "pnpm": "^8.9.0"
   }
 }
